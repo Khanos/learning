@@ -1,0 +1,26 @@
+{
+  "name": "backend-node",
+  "version": "1.0.0",
+  "description": "Backend template with node, typescript and mongodb connection using clean code architecture",
+  "main": "./src/app.ts",
+  "scripts": {
+    "dev": "nodemon ./server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Epilef Rodriguez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1"
+  }
+}
